@@ -5,7 +5,6 @@
   font-family: cursive;
 }
 
-
 body {
   height: 100vh;
   width: 100%;
@@ -27,7 +26,6 @@ body {
   /* margin: 100px auto 0px; */
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
   padding: 40px 35px;
-  
 }
 .search {
   color: white;
@@ -133,22 +131,18 @@ body {
   display: none;
 }
 
-.section{
+.section {
   height: 100%;
-  width:100%;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   background-blend-mode: darken;
   height: 100vh;
   width: 100%;
   top: 0;
   bottom: 0;
-  background-image: linear-gradient(
-      0deg,
-      transparent,
-      rgba(180, 202, 14, 0.49)
-    ),
+  background-image: linear-gradient(0deg, transparent, rgba(180, 202, 14, 0.49)),
     url(https://img.freepik.com/free-photo/nature-colorful-landscape-dusk-cloud_1203-5705.jpg?w=900&t=st=1692258951~exp=1692259551~hmac=4f179cf00f68f0d4566d275eb2bf6ddc32861755a8f85e27bcd913da5fe1b3df);
   background-size: cover;
   background-position: center;
@@ -156,4 +150,3 @@ body {
   filter: blur(0%);
   backdrop-filter: brightness(50%);
 }
-
