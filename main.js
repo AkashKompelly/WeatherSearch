@@ -1,11 +1,14 @@
+// GETTING ELEMENTS USING CUSTOME FUNCTION
 var apikey = "0e3b8b78c55c0b72309808592b16e9f1";
 var searchBox = getElementById("input");
 var searchBtn = getElementById("btn");
 
+// CLICK EVENT 
 searchBtn.addEventListener("click", () => {
   weatherData(searchBox.value);
 });
 
+// WEATHER DATA FUNCTION
 async function weatherData(city) {
   var url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}&units=metric`;
   var res = await fetch(url);
@@ -37,6 +40,7 @@ async function weatherData(city) {
   }
 }
 
+// ELEMENT GETTING FUNCTION
 function getElementById(name) {
   return document.getElementById(name);
 }
