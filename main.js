@@ -3,7 +3,7 @@ var apikey = "0e3b8b78c55c0b72309808592b16e9f1";
 var searchBox = getElementById("input");
 var searchBtn = getElementById("btn");
 
-// CLICK EVENT 
+// CLICK EVENT
 searchBtn.addEventListener("click", () => {
   weatherData(searchBox.value);
 });
